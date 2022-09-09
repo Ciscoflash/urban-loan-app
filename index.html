@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+     <main>
+        <div class="inner_main">
+                <h1>Welcome To Urban Loan App</h1>
+            <p>Our loan app allows you easy access to loans up to the amount 5 <br> Million Naira</p>
+            <span>Fill in to Continue</span>
+            <!-- This would accept the user data -->
+            <div class="main_grid">
+                <div class="left_grid">
+                    <form action="">
+                        <label for="username" id="userLabel">User Name: </label> <br> <br>
+                        <input type="text" id="userName"> <br>
+                        <label for="" id="userError"></label>
+                        <br>
+                        <label for="acBalance" id="AcLabel">Account Balance:</label> <br><br>
+                        <input type="number" id="AcInput"> <br>
+                        <label for="" id="AcError"></label>
+                        <br>
+                        <label for="loanAmount" id="AmountLabel">Loan Amount: </label> <br><br>
+                        <input type="number" id="AmountInput"> <br>
+                        <label for="" id="AmountError"></label>
+                        <br>
+        
+        
+                        <select name="" id="Acount_type">
+                            <option value="">Account-Type</option>
+                            <option value="savings">Savings</option>
+                            <option value="current">Current</option>
+                            <option value="student">Student</option>
+                        </select> <br>
+                        <label for="" id="TypeError"></label>
+                        <br>
+
+                        <select name="credit_history" id="credit_history">
+                            <option value="">Credit History</option>
+                            <option value="one">1 month</option>
+                            <option value="two">2 month</option>
+                            <option value="three">3 month</option>
+                            <option value="four">4 month</option>
+                            <option value="five">5 month</option>
+                            <option value="six">6 month above</option>
+                        </select> <br>
+                        <label for="" id="creditError"></label>
+                        <br>
+                        <label for="deposite_date" id="last_depositLabel">Last Deposite Date</label> <br><br>
+                        <select name="" id="lastDeposit">
+                            <option value="">last deposited date</option>
+                            <option value="one_Month">one month ago</option>
+                            <option value="three_Month">3 months ago</option>
+                            <option value="six_Month">6 months ago</option>
+                        </select> <br>
+                        <label for="" id="lastDeposit_Error"></label>
+                        <br>
+                        <label for="" id="loanCollectedLabel">Last Loan Collected Date: </label> <br><br>
+                        <select name="" id="loanCollected">
+                            <option value="">last loan collected</option>
+                            <option value="one_Month">1 month ago</option>
+                            <option value="two_Month">2 months ago</option>
+                            <option value="three_Month">3 months ago</option>
+                            <option value="six_Month">6 months ago</option>
+                        </select> <br>
+                        <label for="" id="loanCollected_Error"></label>
+                        <br>
+                        <label for="" id="loanPayment_label">Loan Repayment Period</label> <br><br>
+                        <select name="" id="Repayment_Period">
+                            <option value="">Repayment Period</option>
+                            <option value="one">1 month time</option>
+                            <option value="two">2-3 month time</option>
+                            <option value="four">4-5 month time</option>
+                            <option value="six">6 month time</option>
+                        </select> <br>
+                        <label for="" id="repaymentError"></label>
+                        <br>
+                        <button type="button" id="confirmBtn"><a href="#">Confirm</a> </button> <br><br>
+                        <label for="" id="successMsg"></label>
+                    </form>
+                </div>
+                <div class="right_grid">
+                    <div class="top"></div>
+                    <div class="bottom"></div>
+                </div>
+            </div>
+            <!-- <form action="">
+                <label for="username">User Name: </label> <br> <br>
+                <input type="text"> <br><br>
+                <label for="acBalance">Account Balance:</label> <br><br>
+                <input type="number"> <br><br>
+                <label for="loanAmount">Loan Amount: </label> <br><br>
+                <input type="number"> <br><br>
+
+
+                <select name="" id="">
+                    <option value="">Account-Type</option>
+                    <option value="">Savings</option>
+                    <option value="">Current</option>
+                    <option value="">Student</option>
+                </select> <br><br>
+                <button type="button">Confirm</button>
+            </form> -->
+        </div>
+     </main>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
